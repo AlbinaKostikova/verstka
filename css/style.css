@@ -1,0 +1,131 @@
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+}
+html,
+body {
+  color: white;
+  font-size: 62.5%;
+  font-weight: normal;
+  background-image: linear-gradient(to right top, #060606, #050504, #030303, #020201, #000000);
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button,
+input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 130rem;
+  margin: 0 auto;
+}
+.button {
+  border-radius: 5rem;
+  padding: 1rem 3rem;
+  color: white;
+}
+.header {
+  padding: 4rem 11rem 4px 8rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  z-index: 10;
+}
+.header__wrap {
+  display: flex;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav a:not(:last-child) {
+  margin-right: 7.1rem;
+}
+.header__nav a {
+  font-size: 1.6rem;
+}
+.header__logo {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+.header__button {
+  width: 186px;
+  height: 44px;
+  font-size: 1.6rem;
+  margin-left: 55.3rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: linear-gradient(142deg, #c89afc 0%, #7c6afa 100%);
+  border: 1px solid #000;
+  border-radius: 50px;
+}
+.main-display__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.main-display {
+  padding-top: 27rem;
+}
+.main-display .container {
+  position: relative;
+  z-index: 10;
+}
+.main-display__header {
+  font-weight: 700;
+  max-width: 76rem;
+  font-size: 6.4rem;
+  line-height: 140%;
+  margin-bottom: 5rem;
+}
+.main-display__timer {
+  display: flex;
+  margin-bottom: 7.6rem;
+}
+.main-display__button {
+  background: linear-gradient(141deg, #df5950 0%, #451046 100%);
+}
+.timer__item {
+  width: 10.2rem;
+  height: 11.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212;
+  flex-direction: column;
+}
+.timer__item:not(:last-child) {
+  margin-right: 3rem;
+}
+.timer__count {
+  font-size: 3.6rem;
+}
+.timer__text {
+  font-size: 1.6rem;
+  opacity: 0.4;
+}
