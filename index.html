@@ -1,56 +1,148 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сборка компьютера</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="header__wrap">
-        <a href="#" class="header__logo">
-          <img src="/img/logo.svg" alt="Логотип Сборка компьютера" class="header__logo" />
-        </a>
-        <div class="header__menu">
-          <nav class="header__nav">
-            <a href="#">Чем занимаемся</a>
-            <a href="#">Процесс работы</a>
-            <a href="#">Команда</a>
-          </nav>
-          <button type="button" class="button header__button">Оставить заявку</button>
-        </div>
-      </div>
-    </header>
-    <main class="main">
-      <section class="main-display">
-        <div class="container">
-          <h1 class="main-display__header">Собираем игровой ПК под ваш бюджет</h1>
-          <div class="timer main-display__timer">
-            <div class="timer__item">
-              <div class="timer__count">18</div>
-              <div class="timer__text">Дней</div>
-            </div>
-            <div class="timer__item">
-              <div class="timer__count">18</div>
-              <div class="timer__text">Часов</div>
-            </div>
-            <div class="timer__item">
-              <div class="timer__count">18</div>
-              <div class="timer__text">Минут</div>
-            </div>
-            <div class="timer__item">
-              <div class="timer__count">18</div>
-              <div class="timer__text">Секунд</div>
-            </div>
+    <main>
+      <div class="header-main">
+        <header class="header__wrap">
+          <a href="#" class="header__logo-link">
+            <img src="/img/logo.svg" alt="Логотип Сборка компьютера" class="header__logo" />
+          </a>
+          <div class="header__menu">
+            <nav class="header__nav">
+              <a href="#about">Чем занимаемся</a>
+              <a href="#process">Процесс работы</a>
+              <a href="#team">Команда</a>
+            </nav>
+            <button type="button" class="button header__button">Оставить заявку</button>
           </div>
-          <button class="button main-display__button">Оставить заявку</button>
-        </div>
-        <div class="main-display__background">
-          <img src="/img/main-screen__bgc.png" alt="Фон главного экрана" />
+        </header>
+
+        <section class="main">
+          <section class="main-display">
+            <div class="container">
+              <h1 class="main-display__header">Собираем игровой ПК под ваш бюджет</h1>
+              <div class="timer main-display__timer">
+                <div class="timer__item">
+                  <div class="timer__count">18</div>
+                  <div class="timer__text">Дней</div>
+                </div>
+                <div class="timer__item">
+                  <div class="timer__count">18</div>
+                  <div class="timer__text">Часов</div>
+                </div>
+                <div class="timer__item">
+                  <div class="timer__count">18</div>
+                  <div class="timer__text">Минут</div>
+                </div>
+                <div class="timer__item">
+                  <div class="timer__count">18</div>
+                  <div class="timer__text">Секунд</div>
+                </div>
+              </div>
+              <button class="button main-display__button">Оставить заявку</button>
+            </div>
+          </section>
+        </section>
+      </div>
+      <!--header-main-->
+
+      <section class="about-container" id="about">
+        <div class="about-image"></div>
+        <div class="about-text">
+          <h2>Чем мы занимаемся</h2>
+          <p>
+            Помогаем сэкономить до 40% стоимости игрового компьютера без потери производительности. Подбираем мощные
+            детали компьютера, заказываем у своих поставщиков или напрямую у производителей, чтобы сэкономить ваши
+            деньги. Собираем мощный компьютер, на котором можно играть в любые современные игры и заниматься работой.
+          </p>
         </div>
       </section>
+      <section class="process-container" id="process">
+        <div class="process-header">
+          <div class="process-img"></div>
+          <h2>Процесс работы</h2>
+        </div>
+        <p class="process-text">
+          Подробно рассказываем о том, как происходит сборка, от заявки до выдачи вашего заказа
+        </p>
+        <div class="process-steps">
+          <div class="step1">
+            <h3>Заявка</h3>
+            <div class="steps-line line1"></div>
+            <p>
+              Мы получаем вашу заявку, связываемся с вами для уточнения деталей, чтобы понять ваши ожидания от будущего
+              компьютера.
+            </p>
+          </div>
+          <div class="step2">
+            <h3>Подбор</h3>
+            <div class="steps-line line2"></div>
+            <p>
+              После оплаты подбираем комплектующие, которые дадут максимальную производительность. Заказываем их
+              напрямую у поставщиков.
+            </p>
+          </div>
+          <div class="step3">
+            <h3>Сборка</h3>
+            <div class="steps-line line3"></div>
+            <p>
+              Собираем компьютер, проводим стартовую диагностику, устанавливаем операционную систему и необходимые
+              драйверы для работы.
+            </p>
+          </div>
+          <div class="step4">
+            <h3>Выдача</h3>
+            <div class="steps-line line4"></div>
+            <p>
+              Отдаём компьютер вам в назначенный срок, проводим вместе тестирование, подписываем документы о выполнении
+              работы и гарантии.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="teachers-container" id="team">
+        <div class="teachers-header">
+          <div class="teachers-logo"></div>
+          <h2>Наша команда</h2>
+        </div>
+        <div class="teachers">
+          <div class="teacher teacher1">
+            <div class="teacher-img"></div>
+            <h3>Евгений Петров</h3>
+            <p>Специалист по видеокартам</p>
+            <button class="teacher-btn">Биография</button>
+          </div>
+          <div class="teacher teacher2">
+            <div class="teacher-img"></div>
+            <h3>Алексей Козлов</h3>
+            <p>Специалист по видеокартам</p>
+            <button class="teacher-btn">Биография</button>
+          </div>
+          <div class="teacher teacher3">
+            <div class="teacher-img"></div>
+            <h3>Дмитрий Иванов</h3>
+            <p>Специалист по видеокартам</p>
+            <button class="teacher-btn">Биография</button>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <h2>Закажите свою уникальную сборку</h2>
+        <p>Мы свяжемся с вами, чтобы уточнить детали заказа</p>
+        <button class="footer-btn">Оставить заявку</button>
+        <div class="footer-icons">
+          <button class="button-icon icon1"><img src="/img/vk.svg" /></button>
+          <button class="button-icon icon2"><img src="/img/youtube.svg" /></button>
+          <button class="button-icon icon3"><img src="/img/facebook.svg" /></button>
+          <button class="button-icon icon4"><img src="/img/instagram.svg" /></button>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
